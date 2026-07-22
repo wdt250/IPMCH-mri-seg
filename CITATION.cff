@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: IPMCH MRI Segmentation and Radiomics Agreement Code
+message: Please cite this repository and the associated manuscript when available.
+type: software
+authors:
+  - given-names: Daotong
+    family-names: Wang
+repository-code: https://github.com/wdt250/IPMCH-mri-seg
+license: AGPL-3.0
+version: 0.1.0
+date-released: 2026-07-22

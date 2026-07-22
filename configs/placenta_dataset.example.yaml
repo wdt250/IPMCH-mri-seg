@@ -1,0 +1,7 @@
+# Replace this path with the local de-identified dataset directory.
+path: /path/to/placenta_triplets
+train: images/train
+val: images/val
+
+names:
+  0: placenta

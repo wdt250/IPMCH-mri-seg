@@ -1,0 +1,2 @@
+image,split,metadata_match,best_dicom_path
+case001_haste-cor_0002.jpg,val,yes,/path/to/deidentified/dicom/case001_haste-cor_0002.dcm
