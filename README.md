@@ -131,7 +131,7 @@ python research/compute_radiomics_agreement.py \
   --device 0
 ```
 
-The analysis extracts original-image shape2D, first-order, GLCM, GLRLM, GLSZM, GLDM and NGTDM features with identical settings for manual and automatic ROIs. Stable features are selected with all of the following criteria:
+The analysis extracts original-image shape2D, first-order, GLCM, GLRLM, GLSZM, GLDM and NGTDM features with identical settings for manual and automatic ROIs. The exact extraction settings are provided as a standalone PyRadiomics parameter file at `configs/pyradiomics_params.yaml` (the same structure is also written to `pyradiomics_params.json` in each output directory). Stable features are selected with all of the following criteria:
 
 ```text
 ICC(A,1) >= 0.90

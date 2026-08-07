@@ -1,0 +1,25 @@
+# PyRadiomics extraction settings for the manual-versus-automatic ROI agreement analysis.
+# Mirrors the inline settings in research/compute_radiomics_agreement_jpg.py (build_extractor),
+# which also writes this structure to pyradiomics_params.json in each output directory.
+# Usage: pyradiomics --param configs/pyradiomics_params.yaml <image> <mask>
+#    or: featureextractor.RadiomicsFeatureExtractor(str(param_path))
+setting:
+  label: 1
+  normalize: true
+  normalizeScale: 100
+  binWidth: 10
+  interpolator: sitkBSpline
+  correctMask: true
+  minimumROIDimensions: 2
+  minimumROISize: 16
+  geometryTolerance: 0.000001
+imageType:
+  Original: {}
+featureClass:
+  shape2D: []
+  firstorder: []
+  glcm: []
+  glrlm: []
+  glszm: []
+  gldm: []
+  ngtdm: []
