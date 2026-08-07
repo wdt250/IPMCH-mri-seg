@@ -148,7 +148,7 @@ wandb/
 .test-yolo-config/
 
 # Clinical/research data and generated analysis outputs
-data/
+/data/
 outputs/
 results/
 research_outputs/
